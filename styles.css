@@ -109,8 +109,9 @@ img{max-width:100%; display:block;}
 .tower-code{font-size:10.5px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); font-weight:700; display:block;}
 .tower-title h4{font-size:19px; color:var(--navy); margin-top:2px;}
 .tower-badge{background:#e8f3ee; color:#0d6e4f; font-size:11px; font-weight:700; padding:6px 12px; border-radius:14px; white-space:nowrap; border:none;}
-.tower-badge-onreq{background:var(--gold); color:var(--navy); cursor:pointer;}
-.tower-badge-onreq:hover{background:var(--navy); color:#fff;}
+.tower-badge-onreq, .tower-badge-cta{background:var(--gold); color:var(--navy); cursor:pointer; border:none;}
+.tower-badge-onreq:hover, .tower-badge-cta:hover{background:var(--navy); color:#fff;}
+.price-microcopy{font-size:11px; color:var(--muted); font-style:italic; margin:-10px 0 16px;}
 
 .cfg-table{width:100%; border-collapse:collapse; margin-bottom:18px; font-size:13.5px;}
 .cfg-table th{text-align:left; font-size:10px; letter-spacing:1px; text-transform:uppercase; color:var(--muted); padding:8px 4px; border-bottom:1.5px solid var(--navy);}
